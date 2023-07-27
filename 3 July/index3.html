@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listeler</title>
+  </head>
+  <body>
+    <!--üç tip liste vardır-->
+    <!--Ordered List, Unordered list ve Description List-->
+    <h1>Ordered HTML list</h1>
+    <ol>
+      <li>Birinci</li>
+      <li>İkinci</li>
+      <li>Üçüncü</li>
+    </ol>
+
+    <h2>Unordered HTML list</h2>
+    <ul>
+      <li>Apple</li>
+      <li>Microsft</li>
+      <li>Linux</li>
+    </ul>
+
+    <h3>Description HTML list</h3>
+    <!--satır başından itibaren başlayan listeleme tipi fakat fazla kullanılmıyor 73.satırda örneği var.-->
+    <dl>
+      <li>deneme1</li>
+      <li>deneme2</li>
+      <li>deneme3</li>
+    </dl>
+
+    <h4>Ordered list</h4>
+    <ol>
+      <li>Mercedes</li>
+      <li>BMW</li>
+      <li>Ferrari</li>
+    </ol>
+
+    <ol type="I">
+      <li>Audi</li>
+      <li>McLaren</li>
+      <li>RedBull</li>
+    </ol>
+
+    <ol type="I" start="5">
+      <li>Skoda</li>
+      <li>VW</li>
+      <li>Toyota</li>
+    </ol>
+
+    <ol type="a" start="4">
+      <!--type seçeneğine dikkat-->
+      <li style="font-size: 20px">Skoda</li>
+      <!--20px yerine larger vb diyebiliriz.-->
+      <li>VW</li>
+      <li>Toyota</li>
+    </ol>
+
+    <ul>
+      <li>Almanya</li>
+      <li>Hollanda</li>
+      <li>Fransa</li>
+    </ul>
+
+    <ul type="square">
+      <li>Almanya</li>
+      <li>Hollanda</li>
+      <li>Fransa</li>
+    </ul>
+    <!--square ile başlıyor. Diğerlerinde nokta veya yuvarlak-->
+
+    <dl>
+      <dt>mavi universite</dt>
+      <dd>mühendislik</dd>
+    </dl>
+
+    <br /><br /><br />
+    <table border="3">
+      <thead style="background-color: brown">
+        <tr>
+          <th>S.No</th>
+          <th align="left">Name</th>
+          <!--Name in stun da nerede olacağını ayarlıyor.-->
+          <th>Age</th>
+          <th>Lessons-1</th>
+          <th>Lessons-2</th>
+        </tr>
+      </thead>
+      <tbody align="center" style="background-color: aquamarine">
+        <tr>
+          <td>1</td>
+          <td>John Doe</td>
+          <td>26</td>
+          <td>Math</td>
+          <td>HTML</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jimmy Rules</td>
+          <td>24</td>
+          <td colspan="2">HTML</td>
+          <!--<td>HTML</td> yanyana iki stun birleştirmek için--->
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Bob Johnson</td>
+          <td>30</td>
+          <td>JS</td>
+          <td rowspan="2">CSS</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Boby Johnson</td>
+          <td>28</td>
+          <td>JAVA</td>
+          <!--<td>CSS</td> altalta iki stun birleştirmek için--->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
